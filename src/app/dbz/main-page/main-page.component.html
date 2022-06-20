@@ -3,12 +3,15 @@
 
 <div class="row">
     <div class="col">
-        <app-personajes [data]="personajes">
+        <app-personajes>
         </app-personajes>
 
     </div>
     <div class="col">
-        <app-agregar [nuevo]="nuevo" [data]="personajes"></app-agregar>
+        <app-agregar [nuevo]="nuevo"></app-agregar>
     </div>
 
 </div>
+
+<!-- (onNuevoPersonaje)="agregarNuevoPersonaje($event) 
+[data]="personajes"-->
